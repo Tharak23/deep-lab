@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Signal Fingerprinting Research</title>
+  <desc id="desc">Fingerprint and signal map visualization card used in the research section.</desc>
+  <defs>
+    <linearGradient id="r4" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#0b1220"/>
+  <rect x="80" y="80" width="1040" height="640" rx="36" fill="#111827" stroke="#1f2937" stroke-width="4"/>
+  <path d="M450 540c-70-100-60-210 20-250 90-45 190 15 210 110 15 70-10 170-95 210" fill="none" stroke="url(#r4)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M600 560c-40-55-35-135 10-165 45-30 105-5 120 50" fill="none" stroke="#00e5ff" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="790" cy="250" r="38" fill="#7c3aed"/>
+  <circle cx="850" cy="310" r="28" fill="#00e5ff"/>
+  <circle cx="740" cy="320" r="20" fill="#f59e0b"/>
+  <text x="600" y="650" text-anchor="middle" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">Synthetic Signal Fingerprinting</text>
+</svg>

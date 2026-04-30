@@ -16,7 +16,7 @@ const TeamSection = () => {
       id: 1,
       name: 'Tharak Nagaveti',
       role: 'Team Member 1',
-      image: '/placeholders/team-member-1.jpg',
+      image: '/placeholders/team-member-1.svg',
       bio: 'Ph.D. in Computer Vision with 10+ years of experience in AI and machine learning. Leading our facial manipulation detection research.',
       social: {
         linkedin: 'https://linkedin.com',
@@ -29,7 +29,7 @@ const TeamSection = () => {
       id: 2,
       name: 'Aditya Sontena',
       role: 'Team Member 2',
-      image: '/placeholders/team-member-2.jpg',
+      image: '/placeholders/team-member-2.svg',
       bio: 'Former Google AI researcher with expertise in generative models and neural networks. Oversees all research projects and partnerships.',
       social: {
         linkedin: 'https://linkedin.com',
@@ -42,7 +42,7 @@ const TeamSection = () => {
       id: 3,
       name: 'Tejesh Varma',
       role: 'Team Member 3',
-      image: '/placeholders/team-member-3.jpg',
+      image: '/placeholders/team-member-3.svg',
       bio: 'Specializes in audio deepfake detection with background in signal processing and acoustic engineering from MIT.',
       social: {
         linkedin: 'https://linkedin.com',
@@ -55,7 +55,7 @@ const TeamSection = () => {
       id: 4,
       name: 'Dharani Kumar',
       role: 'Team Member 4',
-      image: '/placeholders/team-member-4.jpg',
+      image: '/placeholders/team-member-4.svg',
       bio: 'Expert in temporal analysis and video forensics with previous experience at the FBI Cyber Division.',
       social: {
         linkedin: 'https://linkedin.com',

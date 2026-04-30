@@ -87,14 +87,14 @@ export default function DeepFakeNewsPage() {
               author: {
                 id: 'author-1',
                 name: 'Dr. Sarah Chen',
-                image: '/placeholders/team-member-1.jpg'
+                image: '/placeholders/team-member-1.svg'
               },
               createdAt: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString(),
               updatedAt: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString(),
               tags: ['AI', 'Deepfake', 'Computer Vision'],
               likes: 42,
               comments: 8,
-              image: '/placeholders/blog-1.jpg'
+              image: '/placeholders/blog-1.svg'
             },
             {
               id: 'placeholder-2',
@@ -104,14 +104,14 @@ export default function DeepFakeNewsPage() {
               author: {
                 id: 'author-2',
                 name: 'Prof. Michael Rodriguez',
-                image: '/placeholders/team-member-2.jpg'
+                image: '/placeholders/team-member-2.svg'
               },
               createdAt: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString(),
               updatedAt: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString(),
               tags: ['Ethics', 'AI', 'Society'],
               likes: 37,
               comments: 12,
-              image: '/placeholders/blog-2.jpg'
+              image: '/placeholders/blog-2.svg'
             }
           ]);
         } finally {

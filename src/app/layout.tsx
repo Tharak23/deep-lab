@@ -1,28 +1,7 @@
-import { Inter, Poppins, Roboto } from "next/font/google";
 import "./globals.css";
 import ClientLayout from "@/components/ClientLayout";
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  weight: ["300", "400", "500", "600", "700"],
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const roboto = Roboto({
-  variable: "--font-roboto",
-  weight: ["300", "400", "500", "700"],
-  subsets: ["latin"],
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "DeepFake Detection Research Lab",
@@ -54,7 +33,7 @@ export default function RootLayout({
         }} />
       </head>
       <body
-        className={`${inter.variable} ${poppins.variable} ${roboto.variable} font-sans antialiased`}
+        className="font-sans antialiased"
       >
         <ClientLayout>
           {children}

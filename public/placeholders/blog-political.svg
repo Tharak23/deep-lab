@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Political Deepfake Blog Image</title>
+  <desc id="desc">Blog cover with broadcast and verification graphics.</desc>
+  <defs>
+    <linearGradient id="b2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#0b1220"/>
+  <rect x="100" y="90" width="1000" height="620" rx="36" fill="#111827" stroke="#1f2937" stroke-width="4"/>
+  <rect x="170" y="200" width="420" height="250" rx="24" fill="none" stroke="url(#b2)" stroke-width="16"/>
+  <path d="M220 420l90-120 80 70 70-50 110 100" fill="none" stroke="#00e5ff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="760" cy="320" r="110" fill="url(#b2)" opacity="0.9"/>
+  <path d="M730 320l38 38 70-80" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="620" text-anchor="middle" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Political Media Verification</text>
+</svg>

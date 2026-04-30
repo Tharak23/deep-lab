@@ -140,7 +140,7 @@ const Hero = () => {
                     className="w-10 h-10 rounded-full border-2 border-[var(--card-bg)] overflow-hidden"
                   >
                     <Image
-                      src="/placeholders/team-member-1.jpg"
+                      src="/placeholders/team-member-1.svg"
                       alt={`Team member ${i}`}
                       width={40}
                       height={40}
@@ -173,7 +173,7 @@ const Hero = () => {
               <div className="relative z-10 w-full h-full flex items-center justify-center">
                 <div className="w-4/5 h-4/5 rounded-xl overflow-hidden border border-[var(--border)] glow-box shadow-xl">
                   <Image
-                    src="/placeholders/deepfake-detection.png"
+                    src="/placeholders/deepfake-detection.svg"
                     alt="DeepFake Detection Visualization"
                     width={500}
                     height={500}

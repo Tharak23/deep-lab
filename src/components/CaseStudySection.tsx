@@ -20,7 +20,7 @@ const CaseStudySection = () => {
       title: 'Political Deepfakes',
       description:
         'In 2020, a series of deepfake videos featuring political figures made rounds on social media, potentially influencing public opinion. Our team analyzed these videos and identified key markers of manipulation.',
-      image: '/placeholders/case-political.jpg',
+      image: '/placeholders/case-political.svg',
       icon: <FiAlertTriangle className="text-red-500" size={20} />,
       stats: [
         { label: 'Videos Analyzed', value: '24' },
@@ -33,7 +33,7 @@ const CaseStudySection = () => {
       title: 'Celebrity Impersonation',
       description:
         'Deepfakes of celebrities endorsing products or making controversial statements have become increasingly common. Our research has developed specific detection methods for celebrity impersonation.',
-      image: '/placeholders/case-celebrity.jpg',
+      image: '/placeholders/case-celebrity.svg',
       icon: <FiInfo className="text-blue-500" size={20} />,
       stats: [
         { label: 'Cases Documented', value: '156' },
@@ -46,7 +46,7 @@ const CaseStudySection = () => {
       title: 'Corporate Fraud',
       description:
         'In 2022, a major financial fraud was attempted using deepfake technology to impersonate a CEO in video conferences. Our technology helped identify the fraud before significant damage occurred.',
-      image: '/placeholders/case-corporate.jpg',
+      image: '/placeholders/case-corporate.svg',
       icon: <FiCheck className="text-green-500" size={20} />,
       stats: [
         { label: 'Prevented Loss', value: '$4.2M' },

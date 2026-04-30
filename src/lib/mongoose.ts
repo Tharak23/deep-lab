@@ -1,18 +1,5 @@
 import mongoose from 'mongoose';
 
-const MONGODB_URI = process.env.MONGODB_URI;
-
-if (!MONGODB_URI) {
-  console.error('MongoDB URI is not defined in environment variables!');
-  throw new Error('Please define the MONGODB_URI environment variable inside .env.local');
-}
-
-// Verify that the URI looks like a valid MongoDB connection string
-if (!MONGODB_URI.startsWith('mongodb://') && !MONGODB_URI.startsWith('mongodb+srv://')) {
-  console.error('MongoDB URI does not appear to be in a valid format!');
-  throw new Error('MongoDB URI must start with mongodb:// or mongodb+srv://');
-}
-
 /**
  * Global is used here to maintain a cached connection across hot reloads
  * in development. This prevents connections growing exponentially
@@ -25,6 +12,18 @@ if (!cached) {
 }
 
 async function dbConnect() {
+  const MONGODB_URI = process.env.MONGODB_URI;
+
+  if (!MONGODB_URI) {
+    throw new Error('Please define the MONGODB_URI environment variable inside .env.local');
+  }
+
+  // Verify that the URI looks like a valid MongoDB connection string
+  if (!MONGODB_URI.startsWith('mongodb://') && !MONGODB_URI.startsWith('mongodb+srv://')) {
+    console.error('MongoDB URI does not appear to be in a valid format!');
+    throw new Error('MongoDB URI must start with mongodb:// or mongodb+srv://');
+  }
+
   if (cached.conn) {
     console.log('Using existing MongoDB connection');
     return cached.conn;

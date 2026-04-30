@@ -18,7 +18,7 @@ const BlogSection = () => {
       title: 'Advances in Facial Manipulation Detection Using Transformer Models',
       excerpt:
         'Our team has developed a new approach using transformer-based architectures to detect facial manipulations with unprecedented accuracy.',
-      image: '/placeholders/blog-facial.jpg',
+      image: '/placeholders/blog-facial.svg',
       date: 'May 15, 2023',
       author: 'Dr. Sarah Chen',
       category: 'Research',
@@ -28,7 +28,7 @@ const BlogSection = () => {
       title: 'The Growing Threat of Political Deepfakes in Election Cycles',
       excerpt:
         'As election seasons approach, we examine the increasing sophistication of political deepfakes and their potential impact on democratic processes.',
-      image: '/placeholders/blog-political.jpg',
+      image: '/placeholders/blog-political.svg',
       date: 'April 28, 2023',
       author: 'Prof. Michael Rodriguez',
       category: 'Analysis',
@@ -38,7 +38,7 @@ const BlogSection = () => {
       title: 'Audio Deepfake Detection: New Challenges in Voice Synthesis',
       excerpt:
         'Recent advancements in voice synthesis technology present new challenges for audio deepfake detection. Our research addresses these emerging threats.',
-      image: '/placeholders/blog-audio.jpg',
+      image: '/placeholders/blog-audio.svg',
       date: 'April 10, 2023',
       author: 'Dr. Aisha Patel',
       category: 'Technology',

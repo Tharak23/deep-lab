@@ -26,11 +26,11 @@ export async function GET(_request: NextRequest) {
     
     // If we don't have enough real users, use placeholder data
     const placeholderUsers = [
-      { id: '1', name: 'Dr. Sarah Chen', avatar: '/placeholders/team-member-1.jpg', score: 1250, change: 'up', badge: 'gold' },
-      { id: '3', name: 'Dr. Aisha Patel', avatar: '/placeholders/team-member-3.jpg', score: 1120, change: 'up', badge: 'silver' },
-      { id: '2', name: 'Prof. Michael Rodriguez', avatar: '/placeholders/team-member-2.jpg', score: 980, change: 'down', badge: 'bronze' },
-      { id: '4', name: 'Dr. James Wilson', avatar: '/placeholders/team-member-4.jpg', score: 840, change: 'up', badge: null },
-      { id: '5', name: 'Dr. Emily Zhang', avatar: '/placeholders/team-member-1.jpg', score: 720, change: 'down', badge: null },
+      { id: '1', name: 'Dr. Sarah Chen', avatar: '/placeholders/team-member-1.svg', score: 1250, change: 'up', badge: 'gold' },
+      { id: '3', name: 'Dr. Aisha Patel', avatar: '/placeholders/team-member-3.svg', score: 1120, change: 'up', badge: 'silver' },
+      { id: '2', name: 'Prof. Michael Rodriguez', avatar: '/placeholders/team-member-2.svg', score: 980, change: 'down', badge: 'bronze' },
+      { id: '4', name: 'Dr. James Wilson', avatar: '/placeholders/team-member-4.svg', score: 840, change: 'up', badge: null },
+      { id: '5', name: 'Dr. Emily Zhang', avatar: '/placeholders/team-member-1.svg', score: 720, change: 'down', badge: null },
     ];
     
     // Add placeholder users if needed

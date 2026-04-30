@@ -19,7 +19,7 @@ const ResearchSection = () => {
       title: 'Facial Manipulation Detection',
       description:
         'Developing advanced neural networks to detect subtle inconsistencies in manipulated facial images and videos.',
-      image: '/placeholders/research-facial.jpg',
+      image: '/placeholders/research-facial.svg',
       tags: ['Computer Vision', 'CNN', 'Facial Analysis'],
     },
     {
@@ -27,7 +27,7 @@ const ResearchSection = () => {
       title: 'Audio Deepfake Analysis',
       description:
         'Creating algorithms to identify synthetic voice generation and audio manipulation in media content.',
-      image: '/placeholders/research-audio.jpg',
+      image: '/placeholders/research-audio.svg',
       tags: ['Audio Processing', 'ML', 'Voice Analysis'],
     },
     {
@@ -35,7 +35,7 @@ const ResearchSection = () => {
       title: 'Temporal Inconsistency Detection',
       description:
         'Analyzing frame-by-frame temporal patterns to identify inconsistencies in deepfake videos.',
-      image: '/placeholders/research-temporal.jpg',
+      image: '/placeholders/research-temporal.svg',
       tags: ['Video Analysis', 'RNN', 'Temporal Patterns'],
     },
     {
@@ -43,7 +43,7 @@ const ResearchSection = () => {
       title: 'Generative Model Fingerprinting',
       description:
         'Identifying unique signatures left by different AI models used to generate synthetic media.',
-      image: '/placeholders/research-fingerprinting.jpg',
+      image: '/placeholders/research-fingerprinting.svg',
       tags: ['GAN', 'Model Analysis', 'Forensics'],
     },
   ];

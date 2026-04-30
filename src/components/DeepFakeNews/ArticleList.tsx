@@ -58,7 +58,7 @@ const ArticleCard = ({ article }: { article: Article }) => {
             onError={(e) => {
               // Handle image loading errors
               const target = e.target as HTMLImageElement;
-              target.src = '/images/default-article.jpg'; // Fallback image
+              target.src = '/placeholders/default-article.svg'; // Fallback image
             }}
           />
         ) : (

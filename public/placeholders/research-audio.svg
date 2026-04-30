@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Audio Deepfake Research</title>
+  <desc id="desc">Stylized waveform analysis card used in the research section.</desc>
+  <defs>
+    <linearGradient id="r2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#0b1220"/>
+  <rect x="80" y="80" width="1040" height="640" rx="36" fill="#111827" stroke="#1f2937" stroke-width="4"/>
+  <path d="M160 420h90l60-120 90 220 80-180 70 80 70-40 80 160 90-240 50 120h110" fill="none" stroke="url(#r2)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="260" cy="420" r="18" fill="#00e5ff"/>
+  <circle cx="600" cy="420" r="18" fill="#10b981"/>
+  <circle cx="840" cy="420" r="18" fill="#b400ff"/>
+  <text x="600" y="650" text-anchor="middle" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">Audio Authenticity Scoring</text>
+</svg>
