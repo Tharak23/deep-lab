@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "@auth/mongodb-adapter": "^3.8.0",
     "@types/react-datepicker": "^7.0.0",
