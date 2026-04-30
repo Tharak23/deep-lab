@@ -33,7 +33,7 @@ export default function RootLayout({
         }} />
       </head>
       <body
-        className="font-sans antialiased"
+        className="antialiased"
       >
         <ClientLayout>
           {children}
