@@ -1,5 +1,8 @@
 const config = {
-  plugins: ["@tailwindcss/postcss"],
+  plugins: [
+    "@tailwindcss/postcss",
+    "./postcss-strip-property-rules.cjs",
+  ],
 };
 
 export default config;
